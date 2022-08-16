@@ -10,5 +10,5 @@ jobs:
       # here is some step that generates HTML file with python
       - run: sudo apt install tidy
       - run: tidy page.html > page2.html
-      - name: Print generated page
-        run: cat page2.html
+#       - name: Print generated page
+#         run: cat page2.html
